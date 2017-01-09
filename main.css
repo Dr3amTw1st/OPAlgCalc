@@ -1,75 +1,147 @@
+/* For the basic UI to give the table the look of an unfolded cube. */
+
 table {
     border-collapse: collapse;
 }
-
 .top-left {
-	padding: 20px;
+	padding: 15px;
+	min-width: 20px;
+	text-align: center;
 	border-top: 5px solid black;
 	border-left: 5px solid black;
 	border-right: 1px solid black;
 	border-bottom: 1px solid black;
 }
-
 .top-center {
-	padding: 20px;
+	padding: 15px;
+	min-width: 20px;
+	text-align: center;
 	border-top: 5px solid black;
 	border-left: 1px solid black;
 	border-right: 1px solid black;
 	border-bottom: 1px solid black;
 }
-
 .top-right {
-	padding: 20px;
+	padding: 15px;
+	min-width: 20px;
+	text-align: center;
 	border-top: 5px solid black;
 	border-left: 1px solid black;
 	border-right: 5px solid black;
 	border-bottom: 1px solid black;
 }
-
 .center-left {
-	padding: 20px;
+	padding: 15px;
+	min-width: 20px;
+	text-align: center;
 	border-top: 1px solid black;
 	border-left: 5px solid black;
 	border-right: 1px solid black;
 	border-bottom: 1px solid black;
 }
-
 .center-center {
-	padding: 20px;
+	padding: 15px;
+	min-width: 20px;
+	text-align: center;
 	border-top: 1px solid black;
 	border-left: 1px solid black;
 	border-right: 1px solid black;
 	border-bottom: 1px solid black;
 }
-
 .center-right {
-	padding: 20px;
+	padding: 15px;
+	min-width: 20px;
+	text-align: center;
 	border-top: 1px solid black;
 	border-left: 1px solid black;
 	border-right: 5px solid black;
 	border-bottom: 1px solid black;
 }
-
 .bottom-left {
-	padding: 20px;
+	padding: 15px;
+	min-width: 20px;
+	text-align: center;
 	border-top: 1px solid black;
 	border-left: 5px solid black;
 	border-right: 1px solid black;
 	border-bottom: 5px solid black;
 }
-
 .bottom-center {
-	padding: 20px;
+	padding: 15px;
+	min-width: 20px;
+	text-align: center;
 	border-top: 1px solid black;
 	border-left: 1px solid black;
 	border-right: 1px solid black;
 	border-bottom: 5px solid black;
 }
-
 .bottom-right {
-	padding: 20px;
+	padding: 15px;
+	min-width: 20px;
+	text-align: center;
 	border-top: 1px solid black;
 	border-left: 1px solid black;
 	border-right: 5px solid black;
 	border-bottom: 5px solid black;
 }
+
+
+
+/* Coloring the default state of the cube. */
+
+#blueCenter {background-color: dodgerblue;}
+#whiteCenter {background-color: navajowhite;}
+#orangeCenter {background-color: orange;}
+#redCenter {background-color: red;}
+#yellowCenter {background-color: yellow;}
+#greenCenter {background-color: green;}
+
+#cornerA {background-color: dodgerblue;}
+#cornerB {background-color: dodgerblue;}
+#cornerC {background-color: dodgerblue;}
+#cornerD {background-color: dodgerblue;}
+#cornerE {background-color: orange;}
+#cornerF {background-color: orange;}
+#cornerG {background-color: orange;}
+#cornerH {background-color: orange;}
+#cornerI {background-color: navajowhite;}
+#cornerJ {background-color: navajowhite;}
+#cornerK {background-color: navajowhite;}
+#cornerL {background-color: navajowhite;}
+#cornerM {background-color: red;}
+#cornerN {background-color: red;}
+#cornerO {background-color: red;}
+#cornerP {background-color: red;}
+#cornerQ {background-color: yellow;}
+#cornerR {background-color: yellow;}
+#cornerS {background-color: yellow;}
+#cornerT {background-color: yellow;}
+#cornerU {background-color: green;}
+#cornerV {background-color: green;}
+#cornerW {background-color: green;}
+#cornerX {background-color: green;}
+
+#edgeA {background-color: dodgerblue;}
+#edgeB {background-color: dodgerblue;}
+#edgeC {background-color: dodgerblue;}
+#edgeD {background-color: dodgerblue;}
+#edgeE {background-color: orange;}
+#edgeF {background-color: orange;}
+#edgeG {background-color: orange;}
+#edgeH {background-color: orange;}
+#edgeI {background-color: navajowhite;}
+#edgeJ {background-color: navajowhite;}
+#edgeK {background-color: navajowhite;}
+#edgeL {background-color: navajowhite;}
+#edgeM {background-color: red;}
+#edgeN {background-color: red;}
+#edgeO {background-color: red;}
+#edgeP {background-color: red;}
+#edgeQ {background-color: yellow;}
+#edgeR {background-color: yellow;}
+#edgeS {background-color: yellow;}
+#edgeT {background-color: yellow;}
+#edgeU {background-color: green;}
+#edgeV {background-color: green;}
+#edgeW {background-color: green;}
+#edgeX {background-color: green;}
