@@ -6,16 +6,118 @@
 </head>
 
 <body>
-	<table id="">
+	<table id="cube">
 		<tr>
 			<tr>
 			<td id=""></td>
 			<td id=""></td>
 			<td id=""></td>
 			
-			<td id="cornerA" class="top-left">B</td>
-        	<td id="edgeA" class="top-center">B</td>
-        	<td id="cornerB" class="top-right">B</td>
+			<td id="cornerA" class="top-left" onclick="recolor('cornerA');">B</td>
+			<td id="edgeA" class="top-center" onclick="recolor('edgeA');">B</td>
+			<td id="cornerB" class="top-right" onclick="recolor('cornerB');">B</td>
+			
+			<td id=""></td>
+			<td id=""></td>
+			<td id=""><input type="radio" name="selection" value="G"> G</td>
+			
+			<td id=""><input type="radio" name="selection" value="W"> W</td>
+			<td id=""><input type="radio" name="selection"value="O"> O</td>
+			<td id=""></td>
+		</tr>
+		<tr>
+			<td id=""></td>
+			<td id=""></td>
+			<td id=""></td>
+			
+			<td id="edgeD" class="center-left" onclick="recolor('edgeD');">B</td>
+			<td id="blueCenter" class="center-center" onclick="recolor('blueCenter');">B</td>
+			<td id="edgeB" class="center-right" onclick="recolor('edgeB');">B</td>
+			
+			<td id=""></td>
+			<td id=""></td>
+			<td id=""><input type="radio" name="selection" value="R"> R</td>
+			
+			<td id=""><input type="radio" name="selection" value="Y"> Y</td>
+			<td id=""><input type="radio" name="selection" value="B"> B</td>
+			<td id=""></td>
+		</tr>
+		<tr>
+			<td id=""></td>
+			<td id=""></td>
+			<td id=""></td>
+			
+			<td id="cornerD" class="bottom-left" onclick="recolor('cornerD');">B</td>
+			<td id="edgeC" class="bottom-center" onclick="recolor('edgeC');">B</td>
+			<td id="cornerC" class="bottom-right" onclick="recolor('cornerC');">B</td>
+			
+			<td id=""></td>
+			<td id=""></td>
+			<td id=""></td>
+			
+			<td id=""></td>
+			<td id=""></td>
+			<td id=""></td>
+		</tr>
+		<tr>
+			<td id="cornerE" class="top-left" onclick="recolor('cornerE');">O</td>
+			<td id="edgeE" class="top-center" onclick="recolor('edgeE');">O</td>
+			<td id="cornerF" class="top-right" onclick="recolor('cornerF');">O</td>
+			
+			<td id="cornerI" class="top-left" onclick="recolor('cornerI');">W</td>
+			<td id="edgeI" class="top-center" onclick="recolor('edgeI');">W</td>
+			<td id="cornerJ" class="top-right" onclick="recolor('cornerJ');">W</td>
+			
+			<td id="cornerM" class="top-left" onclick="recolor('cornerM');">R</td>
+			<td id="edgeM" class="top-center" onclick="recolor('edgeM');">R</td>
+			<td id="cornerN" class="top-right" onclick="recolor('cornerN');">R</td>
+			
+			<td id="cornerQ" class="top-left" onclick="recolor('cornerQ');">Y</td>
+			<td id="edgeQ" class="top-center" onclick="recolor('edgeQ');">Y</td>
+			<td id="cornerR" class="top-right" onclick="recolor('cornerR');">Y</td>
+		</tr>
+		<tr>
+			<td id="edgeH" class="center-left" onclick="recolor('edgeH');">O</td>
+			<td id="orangeCenter" class="center-center" onclick="recolor('orangeCenter');">O</td>
+			<td id="edgeF" class="center-right" onclick="recolor('edgeF');">O</td>
+			
+			<td id="edgeL" class="center-left" onclick="recolor('edgeL');">W</td>
+			<td id="whiteCenter" class="center-center" onclick="recolor('whiteCenter');">W</td>
+			<td id="edgeJ" class="center-right" onclick="recolor('edgeJ');">W</td>
+			
+			<td id="edgeP" class="center-left" onclick="recolor('edgeP');">R</td>
+			<td id="redCenter" class="center-center" onclick="recolor('redCenter');">R</td>
+			<td id="edgeN" class="center-right" onclick="recolor('edgeN');">R</td>
+			
+			<td id="edgeT" class="center-left" onclick="recolor('edgeT');">Y</td>
+			<td id="yellowCenter" class="center-center" onclick="recolor('yellowCenter');">Y</td>
+			<td id="edgeR" class="center-right" onclick="recolor('edgeR');">Y</td>
+		</tr>
+		<tr>
+			<td id="cornerH" class="bottom-left" onclick="recolor('cornerH');">O</td>
+			<td id="edgeG" class="bottom-center" onclick="recolor('edgeG');">O</td>
+			<td id="cornerG" class="bottom-right" onclick="recolor('cornerG');">O</td>
+			
+			<td id="cornerL" class="bottom-left" onclick="recolor('cornerL');">W</td>
+			<td id="edgeK" class="bottom-center" onclick="recolor('edgeK');">W</td>
+			<td id="cornerK" class="bottom-right" onclick="recolor('cornerK');">W</td>
+			
+			<td id="cornerP" class="bottom-left" onclick="recolor('cornerP');">R</td>
+			<td id="edgeO" class="bottom-center" onclick="recolor('edgeO');">R</td>
+			<td id="cornerO" class="bottom-right" onclick="recolor('cornerO');">R</td>
+			
+			<td id="cornerT" class="bottom-left"  onclick="recolor('cornerT');">Y</td>
+			<td id="edgeS" class="bottom-center" onclick="recolor('edgeS');">Y</td>
+			<td id="cornerS" class="bottom-right" onclick="recolor('cornerS');">Y</td>
+		</tr>
+		<tr>
+			<td id=""></td>
+			<td id=""></td>
+			<td id=""></td>
+			
+			<td id="cornerU" class="top-left" onclick="recolor('cornerU');">G</td>
+			<td id="edgeU" class="top-center" onclick="recolor('edgeU');">G</td>
+			<td id="cornerV" class="top-right" onclick="recolor('cornerV');">G</td>
 			
 			<td id=""></td>
 			<td id=""></td>
@@ -30,16 +132,16 @@
 			<td id=""></td>
 			<td id=""></td>
 			
-			<td id="edgeD" class="center-left">B</td>
-        	<td id="blueCenter" class="center-center">B</td>
-        	<td id="edgeB" class="center-right">B</td>
+			<td id="edgeX" class="center-left" onclick="recolor('edgeX');">G</td>
+			<td id="greenCenter" class="center-center" onclick="recolor('greenCenter');">G</td>
+			<td id="edgeV" class="center-right" onclick="recolor('edgeV');">G</td>
 			
 			<td id=""></td>
 			<td id=""></td>
-			<td id=""></td>
+			<td id=""><input type="button" onclick="reset()" value="Reset"></td>
 			
-			<td id=""></td>
-			<td id=""></td>
+			<td id=""><input type="button" onclick="clear()" value="Clear"></td>
+			<td id=""><input type="button" onclick="calculate()" value="Enter"></td>
 			<td id=""></td>
 		</tr>
 		<tr>
@@ -47,9 +149,9 @@
 			<td id=""></td>
 			<td id=""></td>
 			
-			<td id="cornerD" class="bottom-left">B</td>
-        	<td id="edgeC" class="bottom-center">B</td>
-        	<td id="cornerC" class="bottom-right">B</td>
+			<td id="cornerX" class="bottom-left" onclick="recolor('cornerX');">G</td>
+			<td id="edgeW" class="bottom-center" onclick="recolor('edgeW');">G</td>
+			<td id="cornerW" class="bottom-right" onclick="recolor('cornerW');">G</td>
 			
 			<td id=""></td>
 			<td id=""></td>
@@ -58,109 +160,6 @@
 			<td id=""></td>
 			<td id=""></td>
 			<td id=""></td>
-		</tr>
-		<tr>
-			<td id="cornerE" class="top-left">O</td>
-			<td id="edgeE" class="top-center">O</td>
-			<td id="cornerF" class="top-right">O</td>
-			
-			<td id="cornerI" class="top-left">W</td>
-			<td id="edgeI" class="top-center">W</td>
-			<td id="cornerJ" class="top-right">W</td>
-			
-			<td id="cornerM" class="top-left">R</td>
-			<td id="edgeM" class="top-center">R</td>
-			<td id="cornerN" class="top-right">R</td>
-			
-			<td id="cornerQ" class="top-left">Y</td>
-			<td id="edgeQ" class="top-center">Y</td>
-			<td id="cornerR" class="top-right">Y</td>
-		</tr>
-		<tr>
-			<td id="edgeH" class="center-left">O</td>
-			<td id="orangeCenter" class="center-center">O</td>
-			<td id="edgeF" class="center-right">O</td>
-			
-			<td id="edgeL" class="center-left">W</td>
-			<td id="whiteCenter" class="center-center">W</td>
-			<td id="edgeJ" class="center-right">W</td>
-			
-			<td id="edgeP" class="center-left">R</td>
-			<td id="redCenter" class="center-center">R</td>
-			<td id="edgeN" class="center-right">R</td>
-			
-			<td id="edgeT" class="center-left">Y</td>
-			<td id="yellowCenter" class="center-center">Y</td>
-			<td id="edgeR" class="center-right">Y</td>
-		</tr>
-		<tr>
-			<td id="cornerH" class="bottom-left">O</td>
-			<td id="edgeG" class="bottom-center">O</td>
-			<td id="cornerG" class="bottom-right">O</td>
-			
-			<td id="edgeL" class="bottom-left">W</td>
-			<td id="edgeK" class="bottom-center">W</td>
-			<td id="cornerK" class="bottom-right">W</td>
-			
-			<td id="cornerP" class="bottom-left">R</td>
-			<td id="edgeO" class="bottom-center">R</td>
-			<td id="cornerO" class="bottom-right">R</td>
-			
-			<td id="cornerT" class="bottom-left">Y</td>
-			<td id="edgeS" class="bottom-center">Y</td>
-			<td id="cornerS" class="bottom-right">Y</td>
-		</tr>
-		<tr>
-			<td id=""></td>
-			<td id=""></td>
-			<td id=""></td>
-			
-			<td id="cornerU" class="top-left">G</td>
-			<td id="edgeU" class="top-center">G</td>
-			<td id="cornerV" class="top-right">G</td>
-			
-			<td id=""></td>
-			<td id=""></td>
-			<td id=""></td>
-			
-			<td id=""></td>
-			<td id=""></td>
-			<td id=""></td>
-		</tr>
-		<tr>
-			<td id=""></td>
-			<td id=""></td>
-			<td id=""></td>
-			
-			<td id="edgeX" class="center-left">G</td>
-			<td id="greenCenter" class="center-center">G</td>
-			<td id="edgeV" class="center-right">G</td>
-			
-			<td id=""></td>
-			<td id=""></td>
-			<td id=""></td>
-			
-			<td id=""></td>
-			<td id=""></td>
-			<td id=""></td>
-		</tr>
-		<tr>
-			<td id=""></td>
-			<td id=""></td>
-			<td id=""></td>
-			
-			<td id="cornerX" class="bottom-left">G</td>
-			<td id="edgeW" class="bottom-center">G</td>
-			<td id="cornerW" class="bottom-right">G</td>
-			
-			<td id=""></td>
-			<td id=""></td>
-			<td id=""></td>
-			
-			<td id=""></td>
-			<td id=""></td>
-			<td id=""></td>
-		</tr>
 		</tr>
 	</table>
 </body>
