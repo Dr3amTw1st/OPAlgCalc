@@ -31,7 +31,7 @@
 			<td id=""></td>
 			
 			<td id="edgeD" class="center-left" onclick="recolor('edgeD');">B</td>
-			<td id="blueCenter" class="center-center" onclick="recolor('blueCenter');">B</td>
+			<td id="blueCenter" class="center-center">B</td>
 			<td id="edgeB" class="center-right" onclick="recolor('edgeB');">B</td>
 			
 			<td id=""></td>
@@ -78,19 +78,19 @@
 		</tr>
 		<tr>
 			<td id="edgeH" class="center-left" onclick="recolor('edgeH');">O</td>
-			<td id="orangeCenter" class="center-center" onclick="recolor('orangeCenter');">O</td>
+			<td id="orangeCenter" class="center-center">O</td>
 			<td id="edgeF" class="center-right" onclick="recolor('edgeF');">O</td>
 			
 			<td id="edgeL" class="center-left" onclick="recolor('edgeL');">W</td>
-			<td id="whiteCenter" class="center-center" onclick="recolor('whiteCenter');">W</td>
+			<td id="whiteCenter" class="center-center">W</td>
 			<td id="edgeJ" class="center-right" onclick="recolor('edgeJ');">W</td>
 			
 			<td id="edgeP" class="center-left" onclick="recolor('edgeP');">R</td>
-			<td id="redCenter" class="center-center" onclick="recolor('redCenter');">R</td>
+			<td id="redCenter" class="center-center">R</td>
 			<td id="edgeN" class="center-right" onclick="recolor('edgeN');">R</td>
 			
 			<td id="edgeT" class="center-left" onclick="recolor('edgeT');">Y</td>
-			<td id="yellowCenter" class="center-center" onclick="recolor('yellowCenter');">Y</td>
+			<td id="yellowCenter" class="center-center">Y</td>
 			<td id="edgeR" class="center-right" onclick="recolor('edgeR');">Y</td>
 		</tr>
 		<tr>
@@ -133,14 +133,14 @@
 			<td id=""></td>
 			
 			<td id="edgeX" class="center-left" onclick="recolor('edgeX');">G</td>
-			<td id="greenCenter" class="center-center" onclick="recolor('greenCenter');">G</td>
+			<td id="greenCenter" class="center-center">G</td>
 			<td id="edgeV" class="center-right" onclick="recolor('edgeV');">G</td>
 			
 			<td id=""></td>
 			<td id=""></td>
 			<td id=""><input type="button" onclick="reset()" value="Reset"></td>
 			
-			<td id=""></td>
+			<td id=""><input type="button" onclick="clearLog();" value="Clear"></td>
 			<td id=""><input type="button" onclick="calculate()" value="Enter"></td>
 			<td id=""></td>
 		</tr>
@@ -162,5 +162,8 @@
 			<td id=""></td>
 		</tr>
 	</table>
+	<div id="log">
+		<p>Moves:</p>
+	</div>
 </body>
 </html>

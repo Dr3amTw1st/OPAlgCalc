@@ -145,3 +145,14 @@ table {
 #edgeV {background-color: green;}
 #edgeW {background-color: green;}
 #edgeX {background-color: green;}
+
+
+
+#log {
+	background-color: #bdbdbd;
+	width: 650px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	top: 100px;
+}
